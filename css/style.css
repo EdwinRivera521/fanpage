@@ -4,16 +4,23 @@ html {
 
 body {
     height: 100%;
-    
+    background-color:#000000;
+
 }
 a {
-    text-decoration: none;
-}
+    text-decoration:underline; 
+   padding:50px;
+    }
 
-.main {
-    height: 100%;
+.aboutMain {
+    height: 150%;
+    display:flex; 
+    justify-content:center;
 }
-.social-image{
-    width: 30px;
-    margin: 15px;
+.header{
+    color:#ffc900;
+    font-size:100px;
+}
+p{
+    color:white;
 }
