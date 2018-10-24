@@ -1,5 +1,5 @@
 html {
-    height: 100%;
+    height:100%;
 }
 
 body {
@@ -9,18 +9,40 @@ body {
 }
 a {
     text-decoration:underline; 
-   padding:50px;
+    padding:50px;
     }
-
 .aboutMain {
     height: 150%;
-    display:flex; 
+    display:flex;
     justify-content:center;
 }
 .header{
     color:#ffc900;
     font-size:100px;
+    display:flex; 
+    justify-content:center;
 }
 p{
     color:white;
+}
+.navbar{
+    display:flex;
+    justify-content:space-around;
+}
+.footer{
+    display: flex;
+    justify-content:space-around;
+}
+#Goku{
+    width:250px;
+}
+.gallery{
+    width:50%;
+}
+.social{
+    width:50%;
+}
+button{
+    width:200px;
+    height:100px;
 }
