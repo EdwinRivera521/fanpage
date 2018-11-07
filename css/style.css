@@ -31,18 +31,40 @@ p{
 }
 .footer{
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
 }
 #Goku{
     width:250px;
 }
 .gallery{
     width:50%;
+    margin:auto;
 }
 .social{
     width:50%;
+    margin:auto;
 }
 button{
-    width:200px;
-    height:100px;
+    width:150px;
+    height:25px;
+    display:flex; 
+    justify-content:center;
+}
+.thumbnail-image{
+    width:300px;
+    height:350px;
+}
+#thumbnail-image{
+    width:300px;
+    height:350px; 
+}
+.daddy{
+    display:flex;
+    width:50%;
+    margin:auto;
+}
+.text{
+    display:flex;
+    justify-content:center;
+    width:50%;
 }
